@@ -26,7 +26,7 @@ layout: main
 
 4 In that file, paste this code and then click commit changes.
 
-```html
+{% highlight html $}
 {% include header.html %}
     <!-- MAIN CONTENT -->
     <div id="main_content_wrap" class="outer">
@@ -35,7 +35,7 @@ layout: main
       </section>
     </div>
 {% include footer.html %}
-```
+{% endhighlight %}
 
 ##Additional Files
 
