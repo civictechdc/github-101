@@ -26,16 +26,14 @@ layout: main
 
 4 In that file, paste this code and then click commit changes.
 
-{% highlight html $}
-{% include header.html %}
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-      {{ content }}
-      </section>
-    </div>
-{% include footer.html %}
-{% endhighlight %}
+    {% include header.html %}
+        <!-- MAIN CONTENT -->
+        <div id="main_content_wrap" class="outer">
+          <section id="main_content" class="inner">
+            {{ content }}
+          </section>
+        </div>
+    {% include footer.html %}
 
 ##Additional Files
 
