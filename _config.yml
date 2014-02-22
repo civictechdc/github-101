@@ -1,0 +1,3 @@
+# The default markdown processor "Maruku" is very particular about strict markdown.
+# Tell Jekyll to use Kramdown instead to allow the site to build.
+markdown: kramdown
