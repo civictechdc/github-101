@@ -26,34 +26,34 @@ layout: main
 
 4 In that file, paste this code:
 
-`{% include header.html %}
+`{% include header.html %}`
     
     <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
+`    <div id="main_content_wrap" class="outer">`
+`      <section id="main_content" class="inner">`
       
-      {{ content }}
+`      {{ content }}`
       
-      </section>
-    </div>
+`      </section>`
+`    </div>`
     
-{% include footer.html %}`
+`{% include footer.html %}`
 
 ##Additional Files
 
 1 Create a file called ".gitignore" and paste the following code in there:
 
-`.DS_Store
-_site`
+`.DS_Store`
+`_site`
 
 2 Create a file called "_config.yml" and paste the following code in there:
 
-'markdown: kramdown'
+`markdown: kramdown`
 
 3 Edit the "index.html" file by changing its name to "index.md" and paste the following code in there:
 
-`---
-layout: main
----`
+`---`
+`layout: main`
+`---`
 
 4 For any additional website pages you'd like to create, paste the same code at the top of the file as in step 3.
