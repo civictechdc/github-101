@@ -29,12 +29,15 @@ layout: main
 `{% include header.html %}`
     
 `    <!-- MAIN CONTENT -->`
+
 `    <div id="main_content_wrap" class="outer">`
+
 `      <section id="main_content" class="inner">`
       
 `      {{ content }}`
       
 `      </section>`
+
 `    </div>`
     
 `{% include footer.html %}`
@@ -44,6 +47,7 @@ layout: main
 1 Add a new file called ".gitignore" and paste the following code in there:
 
 `.DS_Store`
+
 `_site`
 
 2 Create a file called "_config.yml" and paste the following code in there:
@@ -53,7 +57,9 @@ layout: main
 3 Edit the "index.html" file by changing its name to "index.md" and replace all of the code in that file with the following code:
 
 `---`
+
 `layout: main`
+
 `---`
 
 4 For any additional website pages you'd like to create, paste the same code at the top of the file as in step 3.
