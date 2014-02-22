@@ -6,7 +6,7 @@ layout: main
 
 Posting the presentation soon...
 
-[How to turn you GitHub page into Markdown](pages-markdown/)
+[How to turn you GitHub page into Markdown](pages-markdown)
 
 ##Let's Practice
 
