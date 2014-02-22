@@ -10,7 +10,7 @@ layout: main
 
 2 In the new file name, type: "_includes" and then hit tab.
 
-3 Create one file titled "header.html" and another titled "footer.html"
+3 Title the file "header.html" and click commit changes at the bottom of the page. Then create another file in that folder titled "footer.html" and commit changes.
 
 4 Go to the index.html file and cut all of the text above the `<section>` tag. Paste that in the header.html file.
 
@@ -24,11 +24,11 @@ layout: main
 
 3 Create one file titled "main.html"
 
-4 In that file, paste this code:
+4 In that file, paste this code and then click commit changes.
 
 `{% include header.html %}`
     
-    <!-- MAIN CONTENT -->
+`    <!-- MAIN CONTENT -->`
 `    <div id="main_content_wrap" class="outer">`
 `      <section id="main_content" class="inner">`
       
@@ -41,7 +41,7 @@ layout: main
 
 ##Additional Files
 
-1 Create a file called ".gitignore" and paste the following code in there:
+1 Add a new file called ".gitignore" and paste the following code in there:
 
 `.DS_Store`
 `_site`
@@ -50,7 +50,7 @@ layout: main
 
 `markdown: kramdown`
 
-3 Edit the "index.html" file by changing its name to "index.md" and paste the following code in there:
+3 Edit the "index.html" file by changing its name to "index.md" and replace all of the code in that file with the following code:
 
 `---`
 `layout: main`
